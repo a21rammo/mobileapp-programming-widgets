@@ -17,13 +17,13 @@ I started with creating two linearlayouts**activity_main.xml** with the help of 
 Inside of **Root_layout** there is two element. One is a image, the other one is a textview. Both have been centered with gravity. The image has also gotten extra padding for designing purposes. The text also has increased in size for easier readability.
 I have also used wrap_content so each element doesn't take to much space, only within their required size.
     ```
-        <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:padding="14dp"
-        android:src="@drawable/green_sample" />
+    <ImageView
+    android:id="@+id/imageView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:padding="14dp"
+    android:src="@drawable/green_sample" />
     ```
 
     ```
