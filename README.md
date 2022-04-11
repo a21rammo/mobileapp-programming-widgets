@@ -6,25 +6,24 @@
 I started with creating two linearlayouts**activity_main.xml** with the help of the design function which Android Studios provide.
   The first layout will be our root layout which purpose is show the element from upwards and downwards and to take upp the whole screen, which is why it got match_parent.
   
-```android:layout_width="match_parent"
+```
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:id="@+id/root_layout"
-   ```
+```
   
   The layout is also ID to **android:id="@+id/root_layout"**. To simplify the design of putting elements inside of layouts.
   
 Inside of **Root_layout** there is two element. One is a image, the other one is a textview. Both have been centered with gravity. The image has also gotten extra padding for designing purposes. The text also has increased in size for easier readability.
 I have also used wrap_content so each element doesn't take to much space, only within their required size.
-    ```
-    <ImageView
+    ```<ImageView
     android:id="@+id/imageView"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center_horizontal"
     android:padding="14dp"
-    android:src="@drawable/green_sample" />
-    ```
+    android:src="@drawable/green_sample" />```
 
     ```
         <TextView
